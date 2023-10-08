@@ -1,13 +1,14 @@
 import "../styles/Header.scss";
-import InstaLogo from "../assets/images/insta-logo.png";
+import InstaLogo from "../assets/svg/logo.svg";
 
 
 const Header = () => {
   return (
-    <div className="header">
-      <img className="logo" src={InstaLogo} alt="instagram logo" />
-      <span>Instagram</span>
-    </div>
+    <nav>
+      <header className="header">
+        <img className="logo" src={InstaLogo} alt="instagram logo" />
+      </header>
+    </nav>
   );
 };
 
